@@ -43,7 +43,7 @@ public class Program {
         int year = Integer.parseInt(date.substring(3));
         System.out.println("Name: "+ worker.getName());
         System.out.println("Department: "+ worker.getDepartment().getName());
-        System.out.println("Income for "+ date +": "+worker.inCome(year, month));
+        System.out.println("Income for "+ date +": "+String.format("%2f",worker.inCome(year, month)));
         sc.close();
 	}
 	
