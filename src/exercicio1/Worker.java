@@ -5,7 +5,6 @@ import java.util.Calendar;
 import java.util.List;
 
 public class Worker {
-	
 	private String name;
 	private WorkerLevel level;
 	private Double baseSalary;
